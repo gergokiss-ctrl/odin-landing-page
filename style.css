@@ -14,26 +14,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin: 0px 200px;
     padding: 16px 0px;
+    margin: 0px 200px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 800;
     color: #F9FAF8;
-}
-
-.main {
-    font-size: 48px;
-    font-weight: 800;
-    color: #F9FAF8;
-}
-
-.secondary,
-.placeholder {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .header ul {
@@ -50,8 +38,63 @@ a {
     text-decoration: none;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 200px;
+}
+
+.text {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+}
+
+.placeholder {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D747D;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.secondary,
+.placeholder,
+.button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    background: #3B82F6;
+    border: 1px solid #3B82F6;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 8px 32px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
 /* testing purposes */
 
 .header {
     border: 2px solid red;
+}
+
+.container {
+    border: 2px solid gold;
+}
+
+.text {
+    border: 2px solid green;
+}
+
+.placeholder {
+    border: 2px solid pink;
 }
