@@ -10,8 +10,17 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px 200px;
+    padding: 16px 0px;
+}
+
 .logo {
     font-size: 24px;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -27,14 +36,22 @@ body {
     color: #E5E7EB;
 }
 
-ul {
+.header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 24px;
 }
 
 a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+/* testing purposes */
+
+.header {
+    border: 2px solid red;
 }
